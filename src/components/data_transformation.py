@@ -1,0 +1,1 @@
+#Used in changing catoegorial figurs into numerical, how to handle one hot encoding etc.

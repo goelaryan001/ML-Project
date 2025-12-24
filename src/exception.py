@@ -1,7 +1,7 @@
 #So any exception that is basically getting controlled, the Sys library will automatically have that information.
 #Sys lib provides various functions and variables that are used to manipulate different parts of the python running environment.
 import sys
-import logging
+from src.logger import logging
 
 def error_message_details(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info() #this willgive the execution info

@@ -1,0 +1,1 @@
+#functionalities that will be used commonly in the entire application like creating MongoDB client over here, probably save my model o a cloud then write code here.
