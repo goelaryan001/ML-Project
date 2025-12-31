@@ -18,6 +18,7 @@ class PredictPipeline:
             preds=model.predict(data_scaled)
             return preds
         
+        
         except Exception as e:
             raise CustomException(e,sys)
 
